@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Amortized Analysis</title>
+    <title>Amortized-Analysis</title>
     <url>/2024/08/22/Amortized-Analysis/</url>
     <content><![CDATA[<h2 id="摊销分析"><a href="#摊销分析" class="headerlink" title="摊销分析"></a>摊销分析</h2><p>摊销分析是一个强大的工具，用于分析数据结构操作的长期成本，而不仅仅是单个操作的成本。这种分析方法显示，虽然某些操作可能显得成本高昂，但在整个操作序列中，每个操作的平均成本实际上可能相当低。本文将详细探讨三种主要的摊销分析技术：聚合方法、记账方法和势能方法，并通过具体的例子来说明每种方法的应用。</p>
 <h3 id="聚合方法"><a href="#聚合方法" class="headerlink" title="聚合方法"></a>聚合方法</h3><p>聚合方法通过将一系列操作的总成本平均分配到每个操作上来计算平均成本。这是摊销分析中最直观的方法。</p>
